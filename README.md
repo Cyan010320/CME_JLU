@@ -5,83 +5,15 @@
 <a href="AnotherMarkdown.md">Portal</a>
 <br>
 <a href="https://i2.hdslb.com/bfs/face/668af440f8a8065743d3fa79cfa8f017905d0065.jpg@240w_240h_1c_1s.webp">头图</a>
-```cpp
-#include<iostream>
 
-class BinaryTree {
+```swift
 
-public:
-
-	BinaryTree* LeftLeaf;
-	BinaryTree* RightLeaf;
-	int data;
-	BinaryTree() {
-		LeftLeaf = nullptr;
-		RightLeaf = nullptr;
-		data = 0;
-	}
-};
-
-BinaryTree* CreateLeaf(BinaryTree* &root) {
-	int a;
-	std::cin >> a;
-
-	if (a) {
-	
-		root = new BinaryTree;
-		root->data = a;
-		root->LeftLeaf = nullptr;
-		root->RightLeaf = nullptr;
-		CreateLeaf(root->LeftLeaf);
-		CreateLeaf(root->RightLeaf);
-	}
-	else {
-		root = nullptr;
-	}
-
-	return root;
-}
-
-BinaryTree* PreTraverse(BinaryTree* root) {
-	if (root) {
-		std::cout << root->data << ' ';
-		PreTraverse(root->LeftLeaf);
-		PreTraverse(root->RightLeaf);
-	}
-	else return root;
+//===============================账户信息表===================================
+    let accountInfo = Table("accountInfo")
+    let id = Expression<Int64> ("id")
+    let name = Expression<String> ("name")
+    let phoneNumber = Expression<String> ("phone")
+    let creditCardId = Expression<String> ("creditCardID")
 
 
-}
-
-BinaryTree* InTraverse(BinaryTree* root) {
-	if (root) {
-		InTraverse(root->LeftLeaf);
-		std::cout << root->data << ' ';
-		InTraverse(root->RightLeaf);
-	}
-	else return root;
-
-}
-
-BinaryTree* PostTraverse(BinaryTree* root) {
-	if (root) {
-		PostTraverse(root->LeftLeaf);
-		PostTraverse(root->RightLeaf);
-		std::cout << root->data << ' ';
-
-	}
-	else return root;
-}
-
-
-int main() {
-	BinaryTree* root = nullptr;
-	CreateLeaf(root);
-	PreTraverse(root);
-	std::cout << std::endl;
-	InTraverse(root);
-	std::cout << std::endl;
-	PostTraverse(root);
-	return 0;
-}
 ```
