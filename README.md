@@ -6,7 +6,7 @@
 </a>
 <br>
 <a href="AnotherMarkdown.md">
-    传送面板已上线，我们的行动会更加迅捷 ==> AnotherMarkdown
+    传送面板已上线，我们的行动会更加迅捷 ==> AnotherMarkdown.md
 </a>
 <br>
 <a href="https://i2.hdslb.com/bfs/face/668af440f8a8065743d3fa79cfa8f017905d0065.jpg@240w_240h_1c_1s.webp">
