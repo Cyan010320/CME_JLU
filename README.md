@@ -17,3 +17,12 @@
 
 
 ```
+<blockquote>这放不知道</blockquote>
+
+bulleted list, numbered list 不知道是啥
+
+table
+
+<b>这是黑体</b>
+<i>这是Italy</i>
+<strikethrough>不对劲</strikethrough>
