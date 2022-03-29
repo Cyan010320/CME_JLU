@@ -8,7 +8,7 @@
 
 ```swift
 
-//===============================账户信息表===================================
+//=====================带有高亮的代码段（当前语言为swift）==============================
     let accountInfo = Table("accountInfo")
     let id = Expression<Int64> ("id")
     let name = Expression<String> ("name")
