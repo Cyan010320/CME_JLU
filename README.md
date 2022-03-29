@@ -5,7 +5,7 @@
 <br>
 <a href="AnotherMarkdown.md">传送面板已上线,我们的行动会更加迅捷</a>
 <br>
-<a href="https://i2.hdslb.com/bfs/face/668af440f8a8065743d3fa79cfa8f017905d0065.jpg@240w_240h_1c_1s.webp">头图</a>
+<a href="https://i2.hdslb.com/bfs/face/668af440f8a8065743d3fa79cfa8f017905d0065.jpg@240w_240h_1c_1s.webp">网页中的图片</a>
 <br>
 <a href="Bella.png">目录下的图片</a>
 
